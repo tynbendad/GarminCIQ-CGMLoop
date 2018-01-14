@@ -1,0 +1,54 @@
+<settings>
+    <setting propertyKey="@Properties.nsurl" title="@Strings.nsurl" prompt="@Strings.nsurlPrompt">
+        <settingConfig type="url" required="true" /></setting>
+    <setting propertyKey="@Properties.isMGDL" title="@Strings.isMGDL" prompt="@Strings.isMGDLPrompt">
+        <settingConfig type="boolean" required="true" /></setting>
+    <setting propertyKey="@Properties.showSeconds" title="@Strings.showSeconds" prompt="@Strings.showSecondsPrompt">
+        <settingConfig type="boolean" required="true" /></setting>
+    <setting propertyKey="@Properties.respectDND" title="@Strings.respectDND" prompt="@Strings.respectDNDPrompt">
+        <settingConfig type="boolean" required="true" /></setting>
+    <setting propertyKey="@Properties.silenceGesture" title="@Strings.silenceGesture" prompt="@Strings.silenceGesturePrompt">
+        <settingConfig type="boolean" required="true" /></setting>
+	<setting propertyKey="@Properties.dataMode" title='@Strings.dataMode' prompt="@Strings.dataModePrompt">
+	    	<settingConfig type="list" required="true">
+	    	    <listEntry value="0">@Strings.dataModeMin</listEntry>
+	            <listEntry value="1">@Strings.dataModeLoop</listEntry>
+	            <listEntry value="2">@Strings.dataModeOpenAPS</listEntry>
+	</settingConfig></setting>
+    <setting propertyKey="@Properties.bgLowWarning" title="@Strings.bgLowWarning" prompt="@Strings.bgLowWarningPrompt">
+        <settingConfig type="numeric" required="true" /></setting>
+    <setting propertyKey="@Properties.bgHiWarning" title="@Strings.bgHiWarning" prompt="@Strings.bgHiWarningPrompt">
+        <settingConfig type="numeric" required="true" /></setting>
+    <setting propertyKey="@Properties.bgLowAlert" title="@Strings.bgLowAlert" prompt="@Strings.bgLowAlertPrompt">
+        <settingConfig type="numeric" required="true" /></setting>
+    <setting propertyKey="@Properties.bgHiAlert" title="@Strings.bgHiAlert" prompt="@Strings.bgHiAlertPrompt">
+        <settingConfig type="numeric" required="true" /></setting>
+    <setting propertyKey="@Properties.predictLowWarning" title="@Strings.predictLowWarning" prompt="@Strings.predictLowWarningPrompt">
+        <settingConfig type="numeric" required="true" /></setting>
+    <setting propertyKey="@Properties.predictHiWarning" title="@Strings.predictHiWarning" prompt="@Strings.predictHiWarningPrompt">
+        <settingConfig type="numeric" required="true" /></setting>
+    <setting propertyKey="@Properties.predictLowAlert" title="@Strings.predictLowAlert" prompt="@Strings.predictLowAlertPrompt">
+        <settingConfig type="numeric" required="true" /></setting>
+    <setting propertyKey="@Properties.predictHiAlert" title="@Strings.predictHiAlert" prompt="@Strings.predictHiAlertPrompt">
+        <settingConfig type="numeric" required="true" /></setting>
+    <setting propertyKey="@Properties.elapsedWarning" title="@Strings.elapsedWarning" prompt="@Strings.elapsedWarningPrompt">
+        <settingConfig type="numeric" required="true" /></setting>
+    <setting propertyKey="@Properties.elapsedAlert" title="@Strings.elapsedAlert" prompt="@Strings.elapsedAlertPrompt">
+        <settingConfig type="numeric" required="true" /></setting>
+    <setting propertyKey="@Properties.pumpbatWarning" title="@Strings.pumpbatWarning" prompt="@Strings.pumpbatWarningPrompt">
+        <settingConfig type="numeric" required="true" /></setting>
+    <setting propertyKey="@Properties.pumpbatAlert" title="@Strings.pumpbatAlert" prompt="@Strings.pumpbatAlertPrompt">
+        <settingConfig type="numeric" required="true" /></setting>
+    <setting propertyKey="@Properties.pumpbatVWarning" title="@Strings.pumpbatVWarning" prompt="@Strings.pumpbatVWarningPrompt">
+        <settingConfig type="numeric" required="true" /></setting>
+    <setting propertyKey="@Properties.pumpbatVAlert" title="@Strings.pumpbatVAlert" prompt="@Strings.pumpbatVAlertPrompt">
+        <settingConfig type="numeric" required="true" /></setting>
+    <setting propertyKey="@Properties.phonebatWarning" title="@Strings.phonebatWarning" prompt="@Strings.phonebatWarningPrompt">
+        <settingConfig type="numeric" required="true" /></setting>
+    <setting propertyKey="@Properties.phonebatAlert" title="@Strings.phonebatAlert" prompt="@Strings.phonebatAlertPrompt">
+        <settingConfig type="numeric" required="true" /></setting>
+    <setting propertyKey="@Properties.reservoirWarning" title="@Strings.reservoirWarning" prompt="@Strings.reservoirWarningPrompt">
+        <settingConfig type="numeric" required="true" /></setting>
+    <setting propertyKey="@Properties.reservoirAlert" title="@Strings.reservoirAlert" prompt="@Strings.reservoirAlertPrompt">
+        <settingConfig type="numeric" required="true" /></setting>
+</settings>

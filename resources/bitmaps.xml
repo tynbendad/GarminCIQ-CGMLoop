@@ -1,0 +1,13 @@
+<resources>
+    <bitmap id="LauncherIcon" filename="images/icon.png" />
+    <bitmap id="DoNotDisturbIcon" filename="images/donotdisturb.png" />
+    <bitmap id="DisconnectedIcon" filename="images/disconnected.png" />
+    <bitmap id="FortyFiveDown" filename="images/arrow-diagonaldown-24p.PNG" />
+    <bitmap id="FortyFiveUp" filename="images/arrow-diagonalup-24p.PNG" />
+    <bitmap id="SingleUp" filename="images/arrow-up-24p.PNG" />
+    <bitmap id="SingleDown" filename="images/arrow-down-24p.PNG" />
+    <bitmap id="DoubleUp" filename="images/arrow-doubleup-24p.PNG" />
+    <bitmap id="DoubleDown" filename="images/arrow-doubledown-24p.PNG" />
+    <bitmap id="Flat" filename="images/arrow-flat-24p.PNG" />
+    <bitmap id="NONE" filename="images/arrow-none-24p.PNG" />
+</resources>

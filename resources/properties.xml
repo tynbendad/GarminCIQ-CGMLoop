@@ -1,0 +1,27 @@
+<properties>
+    <property id="appVersion" type="string">0.2.0</property>
+    <property id="nsurl" type="string">https://yoursite.azurewebsites.net</property>
+    <property id="dataMode" type="number">0</property>
+    <property id="showSeconds" type="boolean">false</property>
+    <property id="respectDND" type="boolean">false</property>
+    <property id="silenceGesture" type="boolean">true</property>
+    <property id="isMGDL" type="boolean">true</property>
+    <property id="bgLowWarning" type="float">80</property>
+    <property id="bgHiWarning" type="float">240</property>
+    <property id="bgLowAlert" type="float">69</property>
+    <property id="bgHiAlert" type="float">300</property>
+    <property id="predictLowWarning" type="float">0</property>
+    <property id="predictHiWarning" type="float">300</property>
+    <property id="predictLowAlert" type="float">-50</property>
+    <property id="predictHiAlert" type="float">400</property>
+    <property id="elapsedWarning" type="number">15</property>
+    <property id="elapsedAlert" type="number">30</property>
+    <property id="pumpbatWarning" type="float">35</property>
+    <property id="pumpbatAlert" type="float">26</property>
+    <property id="pumpbatVWarning" type="float">1.25</property>
+    <property id="pumpbatVAlert" type="float">1.10</property>
+    <property id="phonebatWarning" type="number">20</property>
+    <property id="phonebatAlert" type="number">10</property>
+    <property id="reservoirWarning" type="number">30</property>
+    <property id="reservoirAlert" type="number">10</property>
+</properties>
